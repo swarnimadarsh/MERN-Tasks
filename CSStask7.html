@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK7</title>
+    <style>
+        body{
+            width:fit-content;
+            font-family: system-ui, sans-serif;
+            color: white;
+            font-weight: 500;
+            
+        }
+        label{
+            display: inline-block;
+            width: 200px;
+            color: white;
+            text-align: left;
+        }
+        .d{
+            background-color:  rgb(171, 56, 94);
+            padding: 20px 60px 20px 60px;
+            margin-left: 370px;
+            
+        }
+        .d1{
+            background-color:#7a1f3d;;
+            padding: 20px 50px 20px 50px;
+        }
+        input ,select{
+            padding: 5px 0px 8px 3px;
+        }
+        p{
+            display: inline-block;
+        }
+        button{
+            width: 25rem;
+            height: 2rem;
+           
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="d">
+        <div class="d1">
+            <form class="c1">
+                <label>Name:</label>
+                <input type="text" placeholder="your name" /> <br><br>
+                <label>Email:</label>
+                <input type="email" placeholder="your email" />  <br><br>
+                <label>Password</label>
+                <input type="Password:" />  <br><br>
+                <label for="">Phone Number </label>
+                <input type="tel"> <br><br>
+                <label for="">Gender:</label>
+               <p>Male:</p> <input type="radio" name="gen" id=""><p>Female:</p> <input type="radio" name="gen" id=""> <p>Other:</p> <input type="radio" name="gen" id="">
+                <br><br>
+                <label for="">Language:</label>
+                <select name="" id="">
+                    <option value="">Select language</option>
+                    <option value="">Hindi</option>
+                    <option value="">Tamil</option>
+                    <option value="">English</option>
+                </select> <br><br>
+                <label for="">Zip Code</label>
+                <input type="number" name="" id=""><br><br>
+                <label>About:</label>
+                <textarea name="" id="" cols="22" rows="2" placeholder="write about yourself..."></textarea>
+                <br><br>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

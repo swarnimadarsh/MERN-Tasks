@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK2</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .d1{
+            height: 30px;
+            text-align: left;
+            padding-left: 10px;
+            padding-top: 10px;
+            font-size: 20px;
+
+        }
+
+        a{
+            text-decoration: none;
+        }
+        .d1:hover{
+            
+            background-color: orange;
+        }
+        a:hover{
+            color: white;
+        }
+        
+        .d2{
+            border: 2px solid ;
+            width: 12%;
+            padding-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .b{
+            background-color: lightblue;
+        }
+      
+        .d3{
+            display: inline-block;
+            height: 30px;
+            text-align: left;
+            padding-left: 13px;
+            padding-right: 10px;
+            padding-top: 5px;
+            font-size: 20px;
+        }
+        .d3:hover{
+            color:white;
+            background-color: grey;
+        }
+        .f{
+            background-color: lightgray;
+        }
+        .d5{
+            display: inline-block;
+            width: 400px;
+            margin-top: 10px;
+            padding-bottom: 10px;
+            border: 2px solid;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .g{
+            visibility: hidden;
+        }
+        h2{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Horizontal navigation bar</h2>
+   <div class="d2">
+    <ul>
+        <div class="d1 b">
+            <li><a href="#home">Home</a></li>
+        </div>
+        <div>
+            <div class="d1 b">
+            <li><a href="#news">Java</a></li>
+        </div>
+        <div class="d1 b">
+            <li><a href="#contact">CSS</a></li>
+        </div>
+        <div class="d1 b">
+            <li><a href="#about">HTML</a></li>
+        </div>
+        <div class="d1 b">
+            <li><a href="#about">BootStrap</a></li>
+        </div>
+        </div>
+      </ul>
+   </div>
+
+   <h2>Vertical navigation bar</h2>
+   <div class="d5">
+    <div class="f" >
+        <ul>
+            <div class="d3 e">
+                <li><a href="#home">Home</a></li>
+            </div>
+            <div class="d3 ">
+                <li><a href="#news">Java</a></li>
+            </div>
+            <div class="d3 ">
+                <li><a href="#contact">CSS</a></li>
+            </div>
+            <div class="d3 ">
+                <li><a href="#about">HTML</a></li>
+            </div>
+            <div class="d3 g">
+                <li><a href="#about">BootStrap</a></li>
+            </div>
+            
+        </ul>
+       </div>
+   </div>
+   
+      
+</body>
+</html>

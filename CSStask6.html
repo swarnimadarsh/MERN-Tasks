@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK6</title>
+    <style>
+        body{
+            font-family: system-ui, sans-serif;
+    font-size: 81.25%;
+        }
+        img{
+            border-radius: 15px;
+            height: 10rem;
+            padding-left:150px;
+            padding-bottom: 10px;
+           
+        }
+        .d{
+            display: flex;
+            justify-content: center;
+        }
+        .inp{
+            width: 30rem;
+            padding: px;
+            margin: 3px;
+            margin-bottom: 10px;
+            height: 1.8rem;
+        }
+        label{
+            padding:2px;
+        }
+        .login{
+            width: 31rem;
+            height: 2rem;
+            background-color: rgb(1, 153, 1);
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-style: none;
+        }
+        .login:hover{
+            background-color:rgb(3, 187, 3) ;
+        }
+        .cancel:hover{
+            background-color: rgb(223, 47, 47);
+        }
+        .d2{
+            background-color: rgb(234, 233, 233);
+            height: 4rem;
+        }
+        .cancel{
+            background-color: rgb(248, 73, 73);
+            height: 2rem;
+            color: white;
+            border-style: none;
+            margin-top: 30px;
+        }
+        .a1{
+            margin-left: 320px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="d">
+        <div class="d1">
+            <img src="image.png" alt="image">
+            <form class="c">
+                <label for=""><b>Username</b></label> <br>
+                <input class="inp" type="text" name="" id="" placeholder="Enter username">
+                <br>
+                <label for=""><b>Password</b></label><br>
+                <input class="inp" type="password" name="" id="" placeholder="Enter password">
+                <br>
+                <button class="login" type="submit">Login</button>
+                <br> 
+                <input type="checkbox" name="" id="">Remember me
+            </form>
+            <div class="d2">
+                
+                <button class="cancel" type="reset">Cancel</button>
+                
+                <a class="a1" href="#">Forget password?</a>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
